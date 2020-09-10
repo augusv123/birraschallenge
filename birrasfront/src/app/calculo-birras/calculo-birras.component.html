@@ -1,0 +1,35 @@
+<app-menu></app-menu>
+
+<div class="container-fluid">
+
+    <div class="row my-5 ">
+        <div class="col-12  my-5 d-flex justify-content-center">
+            <div class="card" style="border:none;">
+                <i _ngcontent-hjf-c2="" class="fas fa-temperature-high" style="font-size: 10vh;"></i>
+                <span *ngIf="todaysWeather!= null" class="badge badge-pill badge-danger mt-3" style="font-size: 2vh;"> {{todaysWeather?.main.temp}} °C</span>
+                <span *ngIf="todaysWeather== null" class="badge badge-pill badge-warning mt-3" style="font-size: 2vh;"> cargando...</span>
+                <mat-form-field  class="my-3" appearance="fill" >
+                    <mat-label>Cantidad de participantes</mat-label>
+                    <input matInput type="number" [(ngModel)]="numberOfpeople"  placeholder=""  min="1">
+                    <span matSuffix>px</span>
+                </mat-form-field>
+                <button  mat-raised-button class="" color="secondary" (click)="calcularBirras()">Calcular birras</button>
+            </div>
+      
+            
+            
+        </div>
+        <div class="col-12  my-5 d-flex justify-content-center">
+
+        <div class="card" style="border:none;">
+              
+            <i _ngcontent-hjf-c2="" class="fas fa-box" style="font-size: 30vh; text-align: center;"></i>
+            <span *ngIf="birras!= null" class="badge badge-pill badge-success mt-3" style="font-size: 3vh; "> Se recomienda comprar {{birras?.birrasNeeded}} birras</span>
+            <span *ngIf="birras!= null" class="badge badge-pill badge-info mt-3" style="font-size: 2vh; "> Por lo que se deben solicitar  {{birras?.sixPacksNeeded}} cajas al proovedor birras</span>
+        
+        </div>
+    </div>
+
+    </div>
+   
+</div>

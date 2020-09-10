@@ -1,0 +1,97 @@
+<app-menu></app-menu>
+<div class="container text-center">
+    <div *ngIf="isLogged; else loggedOut"><h2>Bienvenido {{userName}}</h2>
+    
+        <div class="row  d-flex justify-content-center my-2" *ngIf="isAdmin">
+            <div class="col-8 col-md-6">
+    
+                <div class="card">
+                    <a class="custom-card cardDashboard btn p-0" href="/calculoBirras">
+        
+            <div class="card-body ">
+                <div class="row">
+                     
+                        <div class="col-12 d-flex justify-content-center my-3">
+                            <i class="fas fa-beer" style="font-size: 40px;"></i>
+                                <!-- <img class="imgBoton m-3" src="assets.png" style="width: 40px; height: 40px;"> -->
+                           
+                            </div>
+                            <div class="col">
+                        
+                                    <h5 class="card-title text-uppercase text-muted mb-0" style="text-align: center">Calculo de birras</h5>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </a>
+                        
+                    </div>
+            
+                </div>
+            </div>
+            <div class="row  d-flex justify-content-center my-2">
+                <div class="col-8 col-md-6">
+    
+                    <div class="card">
+                        <a class="custom-card cardDashboard btn p-0" href="/temperature">
+            
+                <div class="card-body ">
+                    <div class="row">
+                         
+                            <div class="col-12 d-flex justify-content-center my-3">
+                                <i class="fas fa-temperature-high" style="font-size: 40px;"></i>
+                                    <!-- <img class="imgBoton m-3" src="assets.png" style="width: 40px; height: 40px;"> -->
+                               
+                                </div>
+                                <div class="col">
+                            
+                                        <h5 class="card-title text-uppercase text-muted mb-0" style="text-align: center">Temperatura de hoy </h5>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </a>
+                            
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="row  d-flex justify-content-center my-2">
+                    <div class="col-8 col-md-6">
+    
+                        <div class="card">
+                            <a class="custom-card cardDashboard btn p-0" href="/meetups">
+                
+                    <div class="card-body ">
+                        <div class="row">
+                             
+                                <div class="col-12 d-flex justify-content-center my-3">
+                                    <i class="far fa-handshake" style="font-size: 40px;"></i>
+                                        <!-- <img class="imgBoton m-3" src="assets.png" style="width: 40px; height: 40px;"> -->
+                                   
+                                    </div>
+                                    <div class="col">
+                                
+                                            <h5 class="card-title text-uppercase text-muted mb-0" style="text-align: center">Gestion de meetups </h5>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </a>
+                                
+                            </div>
+                    
+                        </div>
+                    </div>
+    </div>
+    <ng-template #loggedOut><h2>No has iniciado sesión
+        <br>
+        <a href="/login">Iniciar sesión</a>
+    </h2></ng-template>
+
+
+
+</div>
