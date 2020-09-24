@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7db323a7-88c3-4608-a3e0-e96507167d24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/WeatherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/JWTDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/LogginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/NewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/entity/MainUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/entity/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/enums/RolName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/jwt/JWTEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/jwt/JWTProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/jwt/JWTTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/repository/RolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/security/MainSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/service/RolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/CrudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/CrudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/controller/ProductoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/dto/ProductoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/entity/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/crud/service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gyegxi0qnyOsWPrMmJ2pxMjajf" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\__aug\Downloads\crudBACK\src\main\java\com\tutorial\crud\service" />
+      <recent name="C:\Users\__aug\Downloads\crudBACK\src\main\java\com\tutorial\crud\repository" />
+      <recent name="C:\Users\__aug\Downloads\crudBACK\src\main\java\com\tutorial\crud" />
+      <recent name="C:\Users\__aug\Downloads\crudBACK\src\main\java\com\tutorial\crud\dto" />
+      <recent name="C:\Users\__aug\Downloads\crudBACK\src\main\java\com\tutorial\crud\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tutorial.crud.security" />
+      <recent name="com.tutorial.crud.enums" />
+      <recent name="com.tutorial.crud.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\__aug\IdeaProjects\crudBACK\src\main\java\com\tutorial\crud\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tutorial.crud.CrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7db323a7-88c3-4608-a3e0-e96507167d24" name="Default Changelist" comment="" />
+      <created>1599091374329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599091374329</updated>
+      <workItem from="1599091378233" duration="119000" />
+      <workItem from="1599168777884" duration="5443000" />
+      <workItem from="1599258378784" duration="4151000" />
+      <workItem from="1599340866871" duration="1052000" />
+      <workItem from="1599429428900" duration="7353000" />
+      <workItem from="1599530214767" duration="4065000" />
+      <workItem from="1599539765584" duration="363000" />
+      <workItem from="1599602983626" duration="774000" />
+      <workItem from="1599604800266" duration="10106000" />
+      <workItem from="1599683938916" duration="11113000" />
+      <workItem from="1600986588725" duration="1011000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
